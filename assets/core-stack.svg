@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="650" viewBox="0 0 800 650" role="img" aria-labelledby="core-stack-title core-stack-desc" preserveAspectRatio="xMidYMid meet">
+  <title id="core-stack-title">Core technology stack</title>
+  <desc id="core-stack-desc">A Matrix-themed technology overview. Programming: TypeScript, JavaScript, Python, and Dart. Frontend: React and Next.js. Mobile: Flutter. Backend and APIs: Node.js, REST APIs, Webhooks, and OAuth 2.0. Data layer: PostgreSQL, Prisma, and Redis. DevOps and tooling: Docker, Git, and GitHub Actions.</desc>
+  <defs>
+    <filter id="core-glow" x="-30%" y="-100%" width="160%" height="300%" color-interpolation-filters="sRGB">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1.35" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      text {
+        font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+        font-variant-ligatures: none;
+      }
+      .heading, .frame, .domain, .chips, .status {
+        opacity: 1;
+        animation: reveal .42s cubic-bezier(.2,.75,.2,1) both;
+      }
+      .heading { animation-delay: .15s; }
+      .frame { animation-delay: .45s; }
+      .r1 .domain { animation-delay: .75s; }
+      .r2 .domain { animation-delay: .87s; }
+      .r3 .domain { animation-delay: .99s; }
+      .r4 .domain { animation-delay: 1.11s; }
+      .r5 .domain { animation-delay: 1.23s; }
+      .r6 .domain { animation-delay: 1.35s; }
+      .r1 .chips { animation-delay: 1.50s; }
+      .r2 .chips { animation-delay: 1.62s; }
+      .r3 .chips { animation-delay: 1.74s; }
+      .r4 .chips { animation-delay: 1.86s; }
+      .r5 .chips { animation-delay: 1.98s; }
+      .r6 .chips { animation-delay: 2.10s; }
+      .status { animation: status-pulse .75s ease-out 2.35s both; }
+      .cursor { animation: cursor 1.1s steps(1,end) infinite; }
+      .signal { animation: signal 2.8s ease-in-out infinite; }
+      .rain-stream { opacity: .055; animation: rain 10s linear infinite; }
+      .rain-2 { animation-duration: 12.5s; animation-delay: -7s; }
+      .rain-3 { animation-duration: 9s; animation-delay: -3.5s; }
+      .rain-4 { animation-duration: 14s; animation-delay: -10s; }
+      @keyframes reveal {
+        from { opacity: 0; }
+        to { opacity: 1; }
+      }
+      @keyframes status-pulse {
+        0% { opacity: 0; }
+        35% { opacity: 1; }
+        55% { opacity: .35; }
+        75%, 100% { opacity: 1; }
+      }
+      @keyframes cursor { 0%, 48% { opacity: 1; } 49%, 100% { opacity: 0; } }
+      @keyframes signal { 0%, 100% { opacity: .45; } 50% { opacity: 1; } }
+      @keyframes rain { from { transform: translateY(-180px); } to { transform: translateY(710px); } }
+      @media (prefers-reduced-motion: reduce) {
+        .heading, .frame, .domain, .chips, .status, .cursor, .signal, .rain-stream { animation: none !important; opacity: 1 !important; }
+        .rain-stream { opacity: .04 !important; }
+      }
+    </style>
+  </defs>
+
+  <rect width="800" height="650" fill="#000000"/>
+  <rect class="frame" x="14.5" y="20.5" width="771" height="609" rx="3" fill="#020602" stroke="#063B12"/>
+  <g aria-hidden="true" fill="#00FF41" font-family="SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace" font-size="13" text-anchor="middle">
+    <text class="rain-stream" x="116" y="0"><tspan x="116" dy="0">0</tspan><tspan x="116" dy="20">1</tspan><tspan x="116" dy="20">A</tspan><tspan x="116" dy="20">7</tspan><tspan x="116" dy="20">#</tspan><tspan x="116" dy="20">2</tspan><tspan x="116" dy="20">F</tspan></text>
+    <text class="rain-stream rain-2" x="318" y="0"><tspan x="318" dy="0">N</tspan><tspan x="318" dy="20">O</tspan><tspan x="318" dy="20">D</tspan><tspan x="318" dy="20">E</tspan><tspan x="318" dy="20">:</tspan><tspan x="318" dy="20">8</tspan></text>
+    <text class="rain-stream rain-3" x="526" y="0"><tspan x="526" dy="0">&lt;</tspan><tspan x="526" dy="20">/</tspan><tspan x="526" dy="20">&gt;</tspan><tspan x="526" dy="20">0</tspan><tspan x="526" dy="20">1</tspan><tspan x="526" dy="20">X</tspan></text>
+    <text class="rain-stream rain-4" x="704" y="0"><tspan x="704" dy="0">C</tspan><tspan x="704" dy="20">0</tspan><tspan x="704" dy="20">R</tspan><tspan x="704" dy="20">E</tspan><tspan x="704" dy="20">9</tspan><tspan x="704" dy="20">;</tspan></text>
+  </g>
+  <path class="frame" d="M15 105.5H785M15 167.5H785M15 589.5H785" fill="none" stroke="#063B12"/>
+  <path class="frame" d="M26 20.5H144M656 629.5H774" fill="none" stroke="#00FF41" stroke-opacity=".5"/>
+  <path class="frame" d="M211.5 105.5V589.5" fill="none" stroke="#063B12"/>
+
+  <g class="heading" aria-hidden="true">
+    <rect x="28" y="42" width="8" height="8" fill="#00FF41" class="signal"/>
+    <text x="48" y="53" fill="#70FF70" font-size="28" font-weight="700" letter-spacing="3" filter="url(#core-glow)">CORE STACK</text>
+    <text x="28" y="87" fill="#00FF41" font-size="19">&gt; scan --core-stack</text>
+    <text x="266" y="87" fill="#70FF70" font-size="19" class="cursor">_</text>
+  </g>
+
+  <g class="frame" aria-hidden="true">
+    <text x="28" y="144" fill="#70FF70" font-size="16" font-weight="700" letter-spacing="1.8">DOMAIN</text>
+    <text x="228" y="144" fill="#70FF70" font-size="16" font-weight="700" letter-spacing="1.8">TECHNOLOGIES</text>
+  </g>
+  <text class="status" x="772" y="144" fill="#00FF41" font-family="SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace" font-size="12" text-anchor="end" aria-hidden="true">STATUS: INDEXED</text>
+
+  <g aria-hidden="true">
+    <g class="row r1">
+      <rect class="frame" x="20" y="175" width="760" height="64" fill="#001400" fill-opacity=".42"/>
+      <rect class="frame" x="20" y="175" width="3" height="64" fill="#00FF41"/>
+      <text class="domain" x="32" y="214" fill="#D7FFD7" font-size="20" font-weight="700" letter-spacing=".5">PROGRAMMING</text>
+      <g class="chips" font-size="18" text-anchor="middle">
+        <rect x="228" y="188" width="128" height="38" rx="3" fill="#001400" stroke="#0A641C"/><text x="292" y="213" fill="#70FF70">TypeScript</text>
+        <rect x="366" y="188" width="128" height="38" rx="3" fill="#001400" stroke="#0A641C"/><text x="430" y="213" fill="#70FF70">JavaScript</text>
+        <rect x="504" y="188" width="96" height="38" rx="3" fill="#001400" stroke="#0A641C"/><text x="552" y="213" fill="#70FF70">Python</text>
+        <rect x="610" y="188" width="76" height="38" rx="3" fill="#001400" stroke="#0A641C"/><text x="648" y="213" fill="#70FF70">Dart</text>
+      </g>
+    </g>
+
+    <g class="row r2">
+      <rect class="frame" x="20" y="243" width="760" height="64" fill="#020602"/>
+      <rect class="frame" x="20" y="243" width="3" height="64" fill="#0A641C"/>
+      <text class="domain" x="32" y="282" fill="#D7FFD7" font-size="20" font-weight="700" letter-spacing=".5">FRONTEND</text>
+      <g class="chips" font-size="18" text-anchor="middle">
+        <rect x="228" y="256" width="100" height="38" rx="3" fill="#001400" stroke="#0A641C"/><text x="278" y="281" fill="#70FF70">React</text>
+        <rect x="338" y="256" width="112" height="38" rx="3" fill="#001400" stroke="#0A641C"/><text x="394" y="281" fill="#70FF70">Next.js</text>
+      </g>
+    </g>
+
+    <g class="row r3">
+      <rect class="frame" x="20" y="311" width="760" height="64" fill="#001400" fill-opacity=".42"/>
+      <rect class="frame" x="20" y="311" width="3" height="64" fill="#00FF41"/>
+      <text class="domain" x="32" y="350" fill="#D7FFD7" font-size="20" font-weight="700" letter-spacing=".5">MOBILE</text>
+      <g class="chips" font-size="18" text-anchor="middle">
+        <rect x="228" y="324" width="108" height="38" rx="3" fill="#001400" stroke="#0A641C"/><text x="282" y="349" fill="#70FF70">Flutter</text>
+      </g>
+    </g>
+
+    <g class="row r4">
+      <rect class="frame" x="20" y="379" width="760" height="64" fill="#020602"/>
+      <rect class="frame" x="20" y="379" width="3" height="64" fill="#0A641C"/>
+      <text class="domain" x="32" y="418" fill="#D7FFD7" font-size="18" font-weight="700" letter-spacing=".3">BACKEND &amp; APIs</text>
+      <g class="chips" font-size="18" text-anchor="middle">
+        <rect x="228" y="392" width="104" height="38" rx="3" fill="#001400" stroke="#0A641C"/><text x="280" y="417" fill="#70FF70">Node.js</text>
+        <rect x="342" y="392" width="116" height="38" rx="3" fill="#001400" stroke="#0A641C"/><text x="400" y="417" fill="#70FF70">REST APIs</text>
+        <rect x="468" y="392" width="112" height="38" rx="3" fill="#001400" stroke="#0A641C"/><text x="524" y="417" fill="#70FF70">Webhooks</text>
+        <rect x="590" y="392" width="116" height="38" rx="3" fill="#001400" stroke="#0A641C"/><text x="648" y="417" fill="#70FF70">OAuth 2.0</text>
+      </g>
+    </g>
+
+    <g class="row r5">
+      <rect class="frame" x="20" y="447" width="760" height="64" fill="#001400" fill-opacity=".42"/>
+      <rect class="frame" x="20" y="447" width="3" height="64" fill="#00FF41"/>
+      <text class="domain" x="32" y="486" fill="#D7FFD7" font-size="20" font-weight="700" letter-spacing=".5">DATA LAYER</text>
+      <g class="chips" font-size="18" text-anchor="middle">
+        <rect x="228" y="460" width="140" height="38" rx="3" fill="#001400" stroke="#0A641C"/><text x="298" y="485" fill="#70FF70">PostgreSQL</text>
+        <rect x="378" y="460" width="104" height="38" rx="3" fill="#001400" stroke="#0A641C"/><text x="430" y="485" fill="#70FF70">Prisma</text>
+        <rect x="492" y="460" width="92" height="38" rx="3" fill="#001400" stroke="#0A641C"/><text x="538" y="485" fill="#70FF70">Redis</text>
+      </g>
+    </g>
+
+    <g class="row r6">
+      <rect class="frame" x="20" y="515" width="760" height="64" fill="#020602"/>
+      <rect class="frame" x="20" y="515" width="3" height="64" fill="#0A641C"/>
+      <text class="domain" x="32" y="545" fill="#D7FFD7" font-size="18" font-weight="700" letter-spacing=".4"><tspan x="32">DEVOPS &amp;</tspan><tspan x="32" dy="20">TOOLING</tspan></text>
+      <g class="chips" font-size="18" text-anchor="middle">
+        <rect x="228" y="528" width="104" height="38" rx="3" fill="#001400" stroke="#0A641C"/><text x="280" y="553" fill="#70FF70">Docker</text>
+        <rect x="342" y="528" width="68" height="38" rx="3" fill="#001400" stroke="#0A641C"/><text x="376" y="553" fill="#70FF70">Git</text>
+        <rect x="420" y="528" width="172" height="38" rx="3" fill="#001400" stroke="#0A641C"/><text x="506" y="553" fill="#70FF70">GitHub Actions</text>
+      </g>
+    </g>
+  </g>
+
+  <g aria-hidden="true" font-size="12">
+    <text x="28" y="618" fill="#0A641C" letter-spacing="1">STACK MATRIX // READY</text>
+    <text x="772" y="618" fill="#0A641C" text-anchor="end">END OF SCAN</text>
+  </g>
+</svg>

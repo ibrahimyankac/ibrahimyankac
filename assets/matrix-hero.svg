@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="hero-title hero-desc">
+  <title id="hero-title">İbrahim Yankaç — software developer and product builder</title>
+  <desc id="hero-desc">Animated phosphor-green code rain falls through a black digital environment while İbrahim Yankaç's identity emerges from the center.</desc>
+  <defs>
+    <linearGradient id="hero-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#000000"/>
+      <stop offset="0.55" stop-color="#020602"/>
+      <stop offset="1" stop-color="#001400"/>
+    </linearGradient>
+    <radialGradient id="identity-vignette" cx="50%" cy="52%" r="48%">
+      <stop offset="0" stop-color="#000000" stop-opacity="0.98"/>
+      <stop offset="0.34" stop-color="#000000" stop-opacity="0.92"/>
+      <stop offset="0.58" stop-color="#000000" stop-opacity="0.72"/>
+      <stop offset="0.82" stop-color="#000000" stop-opacity="0.20"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="edge-fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#000000" stop-opacity="0.58"/>
+      <stop offset="0.16" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="0.80" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.72"/>
+    </linearGradient>
+    <filter id="soft-glow" x="-30%" y="-80%" width="160%" height="260%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feFlood flood-color="#00FF41" flood-opacity="0.28" result="color"/>
+      <feComposite in="color" in2="blur" operator="in" result="halo"/>
+      <feMerge>
+        <feMergeNode in="halo"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="head-glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="hero-clip">
+      <rect width="1200" height="430"/>
+    </clipPath>
+
+    <g id="seq-a"><text><tspan class="t0">0</tspan><tspan x="0" dy="19" class="t0">ア</tspan><tspan x="0" dy="19" class="t1">7</tspan><tspan x="0" dy="19" class="t1">K</tspan><tspan x="0" dy="19" class="t2">{</tspan><tspan x="0" dy="19" class="t2">ツ</tspan><tspan x="0" dy="19" class="t3">1</tspan><tspan x="0" dy="19" class="t3">=</tspan><tspan x="0" dy="19" class="t4">R</tspan><tspan x="0" dy="19" class="t4">ノ</tspan><tspan x="0" dy="19" class="t5">9</tspan><tspan x="0" dy="19" class="head">ヲ</tspan></text></g>
+    <g id="seq-b"><text><tspan class="t0">セ</tspan><tspan x="0" dy="19" class="t0">2</tspan><tspan x="0" dy="19" class="t1">&amp;</tspan><tspan x="0" dy="19" class="t1">M</tspan><tspan x="0" dy="19" class="t2">0</tspan><tspan x="0" dy="19" class="t2">ラ</tspan><tspan x="0" dy="19" class="t3">/</tspan><tspan x="0" dy="19" class="t3">8</tspan><tspan x="0" dy="19" class="t4">A</tspan><tspan x="0" dy="19" class="t4">キ</tspan><tspan x="0" dy="19" class="t5">+</tspan><tspan x="0" dy="19" class="head">1</tspan></text></g>
+    <g id="seq-c"><text><tspan class="t0">F</tspan><tspan x="0" dy="19" class="t0">ト</tspan><tspan x="0" dy="19" class="t1">5</tspan><tspan x="0" dy="19" class="t1">[</tspan><tspan x="0" dy="19" class="t2">ユ</tspan><tspan x="0" dy="19" class="t2">C</tspan><tspan x="0" dy="19" class="t3">3</tspan><tspan x="0" dy="19" class="t3">#</tspan><tspan x="0" dy="19" class="t4">ネ</tspan><tspan x="0" dy="19" class="t4">0</tspan><tspan x="0" dy="19" class="t5">V</tspan><tspan x="0" dy="19" class="head">サ</tspan></text></g>
+    <g id="seq-d"><text><tspan class="t0">ム</tspan><tspan x="0" dy="19" class="t0">6</tspan><tspan x="0" dy="19" class="t1">Q</tspan><tspan x="0" dy="19" class="t1">&gt;</tspan><tspan x="0" dy="19" class="t2">イ</tspan><tspan x="0" dy="19" class="t2">1</tspan><tspan x="0" dy="19" class="t3">%</tspan><tspan x="0" dy="19" class="t3">ヘ</tspan><tspan x="0" dy="19" class="t4">J</tspan><tspan x="0" dy="19" class="t4">4</tspan><tspan x="0" dy="19" class="t5">]</tspan><tspan x="0" dy="19" class="head">コ</tspan></text></g>
+    <g id="seq-e"><text><tspan class="t0">9</tspan><tspan x="0" dy="19" class="t0">ハ</tspan><tspan x="0" dy="19" class="t1">B</tspan><tspan x="0" dy="19" class="t1">*</tspan><tspan x="0" dy="19" class="t2">ソ</tspan><tspan x="0" dy="19" class="t2">2</tspan><tspan x="0" dy="19" class="t3">N</tspan><tspan x="0" dy="19" class="t3">}</tspan><tspan x="0" dy="19" class="t4">フ</tspan><tspan x="0" dy="19" class="t4">7</tspan><tspan x="0" dy="19" class="t5">D</tspan><tspan x="0" dy="19" class="head">0</tspan></text></g>
+    <g id="seq-f"><text><tspan class="t0">カ</tspan><tspan x="0" dy="19" class="t0">4</tspan><tspan x="0" dy="19" class="t1">X</tspan><tspan x="0" dy="19" class="t1">=</tspan><tspan x="0" dy="19" class="t2">リ</tspan><tspan x="0" dy="19" class="t2">8</tspan><tspan x="0" dy="19" class="t3">$</tspan><tspan x="0" dy="19" class="t3">モ</tspan><tspan x="0" dy="19" class="t4">P</tspan><tspan x="0" dy="19" class="t4">1</tspan><tspan x="0" dy="19" class="t5">&lt;</tspan><tspan x="0" dy="19" class="head">テ</tspan></text></g>
+    <g id="seq-g"><text><tspan class="t0">L</tspan><tspan x="0" dy="19" class="t0">オ</tspan><tspan x="0" dy="19" class="t1">0</tspan><tspan x="0" dy="19" class="t1">+</tspan><tspan x="0" dy="19" class="t2">ナ</tspan><tspan x="0" dy="19" class="t2">G</tspan><tspan x="0" dy="19" class="t3">6</tspan><tspan x="0" dy="19" class="t3">]</tspan><tspan x="0" dy="19" class="t4">ス</tspan><tspan x="0" dy="19" class="t4">Z</tspan><tspan x="0" dy="19" class="t5">3</tspan><tspan x="0" dy="19" class="head">メ</tspan></text></g>
+    <g id="seq-h"><text><tspan class="t0">チ</tspan><tspan x="0" dy="19" class="t0">8</tspan><tspan x="0" dy="19" class="t1">U</tspan><tspan x="0" dy="19" class="t1">/</tspan><tspan x="0" dy="19" class="t2">ワ</tspan><tspan x="0" dy="19" class="t2">0</tspan><tspan x="0" dy="19" class="t3">H</tspan><tspan x="0" dy="19" class="t3">[</tspan><tspan x="0" dy="19" class="t4">マ</tspan><tspan x="0" dy="19" class="t4">5</tspan><tspan x="0" dy="19" class="t5">&amp;</tspan><tspan x="0" dy="19" class="head">E</tspan></text></g>
+    <g id="seq-i"><text><tspan class="t0">3</tspan><tspan x="0" dy="19" class="t0">ク</tspan><tspan x="0" dy="19" class="t1">Y</tspan><tspan x="0" dy="19" class="t1">%</tspan><tspan x="0" dy="19" class="t2">ホ</tspan><tspan x="0" dy="19" class="t2">7</tspan><tspan x="0" dy="19" class="t3">T</tspan><tspan x="0" dy="19" class="t3">}</tspan><tspan x="0" dy="19" class="t4">ケ</tspan><tspan x="0" dy="19" class="t4">1</tspan><tspan x="0" dy="19" class="t5">#</tspan><tspan x="0" dy="19" class="head">ロ</tspan></text></g>
+    <g id="seq-j"><text><tspan class="t0">エ</tspan><tspan x="0" dy="19" class="t0">1</tspan><tspan x="0" dy="19" class="t1">S</tspan><tspan x="0" dy="19" class="t1">-</tspan><tspan x="0" dy="19" class="t2">ニ</tspan><tspan x="0" dy="19" class="t2">9</tspan><tspan x="0" dy="19" class="t3">W</tspan><tspan x="0" dy="19" class="t3">&lt;</tspan><tspan x="0" dy="19" class="t4">ア</tspan><tspan x="0" dy="19" class="t4">4</tspan><tspan x="0" dy="19" class="t5">=</tspan><tspan x="0" dy="19" class="head">ル</tspan></text></g>
+    <g id="seq-k"><text><tspan class="t0">A</tspan><tspan x="0" dy="19" class="t0">ミ</tspan><tspan x="0" dy="19" class="t1">5</tspan><tspan x="0" dy="19" class="t1">]</tspan><tspan x="0" dy="19" class="t2">タ</tspan><tspan x="0" dy="19" class="t2">F</tspan><tspan x="0" dy="19" class="t3">0</tspan><tspan x="0" dy="19" class="t3">+</tspan><tspan x="0" dy="19" class="t4">ヨ</tspan><tspan x="0" dy="19" class="t4">8</tspan><tspan x="0" dy="19" class="t5">C</tspan><tspan x="0" dy="19" class="head">[</tspan></text></g>
+    <g id="seq-l"><text><tspan class="t0">ノ</tspan><tspan x="0" dy="19" class="t0">6</tspan><tspan x="0" dy="19" class="t1">R</tspan><tspan x="0" dy="19" class="t1">{</tspan><tspan x="0" dy="19" class="t2">ウ</tspan><tspan x="0" dy="19" class="t2">2</tspan><tspan x="0" dy="19" class="t3">*</tspan><tspan x="0" dy="19" class="t3">レ</tspan><tspan x="0" dy="19" class="t4">K</tspan><tspan x="0" dy="19" class="t4">9</tspan><tspan x="0" dy="19" class="t5">&gt;</tspan><tspan x="0" dy="19" class="head">ヒ</tspan></text></g>
+    <g id="seq-m"><text><tspan class="t0">8</tspan><tspan x="0" dy="19" class="t0">サ</tspan><tspan x="0" dy="19" class="t1">V</tspan><tspan x="0" dy="19" class="t1">#</tspan><tspan x="0" dy="19" class="t2">ヘ</tspan><tspan x="0" dy="19" class="t2">3</tspan><tspan x="0" dy="19" class="t3">J</tspan><tspan x="0" dy="19" class="t3">/</tspan><tspan x="0" dy="19" class="t4">ン</tspan><tspan x="0" dy="19" class="t4">0</tspan><tspan x="0" dy="19" class="t5">%</tspan><tspan x="0" dy="19" class="head">Q</tspan></text></g>
+    <g id="seq-n"><text><tspan class="t0">メ</tspan><tspan x="0" dy="19" class="t0">0</tspan><tspan x="0" dy="19" class="t1">D</tspan><tspan x="0" dy="19" class="t1">&amp;</tspan><tspan x="0" dy="19" class="t2">カ</tspan><tspan x="0" dy="19" class="t2">6</tspan><tspan x="0" dy="19" class="t3">Z</tspan><tspan x="0" dy="19" class="t3">=</tspan><tspan x="0" dy="19" class="t4">ツ</tspan><tspan x="0" dy="19" class="t4">1</tspan><tspan x="0" dy="19" class="t5">B</tspan><tspan x="0" dy="19" class="head">}</tspan></text></g>
+    <g id="seq-o"><text><tspan class="t0">P</tspan><tspan x="0" dy="19" class="t0">ラ</tspan><tspan x="0" dy="19" class="t1">4</tspan><tspan x="0" dy="19" class="t1">&lt;</tspan><tspan x="0" dy="19" class="t2">シ</tspan><tspan x="0" dy="19" class="t2">X</tspan><tspan x="0" dy="19" class="t3">7</tspan><tspan x="0" dy="19" class="t3">[</tspan><tspan x="0" dy="19" class="t4">ヌ</tspan><tspan x="0" dy="19" class="t4">2</tspan><tspan x="0" dy="19" class="t5">+</tspan><tspan x="0" dy="19" class="head">M</tspan></text></g>
+    <g id="seq-p"><text><tspan class="t0">モ</tspan><tspan x="0" dy="19" class="t0">9</tspan><tspan x="0" dy="19" class="t1">G</tspan><tspan x="0" dy="19" class="t1">*</tspan><tspan x="0" dy="19" class="t2">オ</tspan><tspan x="0" dy="19" class="t2">1</tspan><tspan x="0" dy="19" class="t3">U</tspan><tspan x="0" dy="19" class="t3">&gt;</tspan><tspan x="0" dy="19" class="t4">コ</tspan><tspan x="0" dy="19" class="t4">5</tspan><tspan x="0" dy="19" class="t5">$</tspan><tspan x="0" dy="19" class="head">ナ</tspan></text></g>
+  </defs>
+
+  <style>
+    .rain { font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace; font-size: 16px; text-anchor: middle; }
+    .depth { font-size: 13px; opacity: 0.24; }
+    .soft { opacity: 0.58; }
+    .medium { opacity: 0.76; }
+    .bright { opacity: 0.94; }
+    .t0 { fill: #063B12; opacity: 0.20; }
+    .t1 { fill: #0A641C; opacity: 0.34; }
+    .t2 { fill: #0A641C; opacity: 0.50; }
+    .t3 { fill: #00FF41; opacity: 0.66; }
+    .t4 { fill: #00FF41; opacity: 0.82; }
+    .t5 { fill: #70FF70; opacity: 0.94; }
+    .head { fill: #F0FFF0; filter: url(#head-glow); }
+    .identity { font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace; text-anchor: middle; animation: reveal 1.15s ease-out both; }
+    .name { fill: #D7FFD7; font-size: 54px; font-weight: 700; letter-spacing: 8px; filter: url(#soft-glow); animation: breathe 5.6s ease-in-out 1.15s infinite; }
+    .role { fill: #70FF70; font-size: 17px; font-weight: 600; letter-spacing: 5px; }
+    .tagline { fill: #4FAF61; font-size: 18px; letter-spacing: 0.8px; }
+    .cursor { fill: #D7FFD7; animation: blink 1.05s steps(1, end) infinite; }
+    @keyframes reveal { from { opacity: 0; transform: translateY(7px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes breathe { 0%, 100% { opacity: 0.92; } 50% { opacity: 1; } }
+    @keyframes blink { 0%, 46% { opacity: 1; } 47%, 100% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) {
+      animate, animateTransform { display: none; }
+      .identity, .name, .cursor { animation: none; opacity: 1; transform: none; }
+    }
+  </style>
+
+  <rect width="1200" height="430" fill="url(#hero-bg)"/>
+  <g clip-path="url(#hero-clip)" class="rain" aria-hidden="true">
+    <g class="depth">
+      <g transform="translate(31 0)"><g transform="translate(0 66)"><use href="#seq-k"/><animateTransform attributeName="transform" type="translate" values="0,-240;0,470" dur="8.90s" begin="-5.20s" repeatCount="indefinite"/></g></g>
+      <g transform="translate(111 0)"><g transform="translate(0 138)"><use href="#seq-c"/><animateTransform attributeName="transform" type="translate" values="0,-250;0,470" dur="8.40s" begin="-1.80s" repeatCount="indefinite"/></g></g>
+      <g transform="translate(207 0)"><g transform="translate(0 32)"><use href="#seq-n"/><animateTransform attributeName="transform" type="translate" values="0,-235;0,475" dur="8.75s" begin="-7.10s" repeatCount="indefinite"/></g></g>
+      <g transform="translate(307 0)"><g transform="translate(0 174)"><use href="#seq-f"/><animateTransform attributeName="transform" type="translate" values="0,-245;0,472" dur="8.20s" begin="-3.90s" repeatCount="indefinite"/></g></g>
+      <g transform="translate(403 0)"><g transform="translate(0 92)"><use href="#seq-a"/><animateTransform attributeName="transform" type="translate" values="0,-242;0,470" dur="8.65s" begin="-6.40s" repeatCount="indefinite"/></g></g>
+      <g transform="translate(509 0)"><g transform="translate(0 148)"><use href="#seq-p"/><animateTransform attributeName="transform" type="translate" values="0,-250;0,474" dur="8.95s" begin="-2.20s" repeatCount="indefinite"/></g></g>
+      <g transform="translate(613 0)"><g transform="translate(0 54)"><use href="#seq-h"/><animateTransform attributeName="transform" type="translate" values="0,-238;0,470" dur="8.35s" begin="-4.80s" repeatCount="indefinite"/></g></g>
+      <g transform="translate(719 0)"><g transform="translate(0 188)"><use href="#seq-d"/><animateTransform attributeName="transform" type="translate" values="0,-248;0,472" dur="8.80s" begin="-7.70s" repeatCount="indefinite"/></g></g>
+      <g transform="translate(821 0)"><g transform="translate(0 114)"><use href="#seq-j"/><animateTransform attributeName="transform" type="translate" values="0,-240;0,475" dur="8.55s" begin="-1.10s" repeatCount="indefinite"/></g></g>
+      <g transform="translate(927 0)"><g transform="translate(0 44)"><use href="#seq-m"/><animateTransform attributeName="transform" type="translate" values="0,-246;0,470" dur="8.25s" begin="-5.90s" repeatCount="indefinite"/></g></g>
+      <g transform="translate(1031 0)"><g transform="translate(0 162)"><use href="#seq-g"/><animateTransform attributeName="transform" type="translate" values="0,-250;0,474" dur="8.70s" begin="-3.10s" repeatCount="indefinite"/></g></g>
+      <g transform="translate(1133 0)"><g transform="translate(0 82)"><use href="#seq-o"/><animateTransform attributeName="transform" type="translate" values="0,-242;0,470" dur="8.45s" begin="-6.80s" repeatCount="indefinite"/></g></g>
+    </g>
+
+    <g class="soft">
+      <g transform="translate(18 0)"><g transform="translate(0 24)"><use href="#seq-a"/><animateTransform attributeName="transform" type="translate" values="0,-235;0,470" dur="6.70s" begin="-4.12s" repeatCount="indefinite"/></g></g>
+      <g transform="translate(72 0)"><g transform="translate(0 152)"><use href="#seq-h"/><animateTransform attributeName="transform" type="translate" values="0,-245;0,475" dur="5.18s" begin="-1.64s" repeatCount="indefinite"/></g></g>
+      <g transform="translate(127 0)"><g transform="translate(0 76)"><use href="#seq-d"/><animateTransform attributeName="transform" type="translate" values="0,-238;0,472" dur="7.82s" begin="-6.30s" repeatCount="indefinite"/></g></g>
+      <g transform="translate(183 0)"><g transform="translate(0 198)"><use href="#seq-m"/><animateTransform attributeName="transform" type="translate" values="0,-250;0,470" dur="4.76s" begin="-2.08s" repeatCount="indefinite"/></g></g>
+      <g transform="translate(241 0)"><g transform="translate(0 118)"><use href="#seq-f"/><animateTransform attributeName="transform" type="translate" values="0,-242;0,474" dur="6.26s" begin="-5.41s" repeatCount="indefinite"/></g></g>
+      <g transform="translate(299 0)"><g transform="translate(0 43)"><use href="#seq-k"/><animateTransform attributeName="transform" type="translate" values="0,-240;0,470" dur="8.14s" begin="-3.66s" repeatCount="indefinite"/></g></g>
+      <g transform="translate(357 0)"><g transform="translate(0 166)"><use href="#seq-c"/><animateTransform attributeName="transform" type="translate" values="0,-248;0,475" dur="5.64s" begin="-0.93s" repeatCount="indefinite"/></g></g>
+      <g transform="translate(415 0)"><g transform="translate(0 93)"><use href="#seq-p"/><animateTransform attributeName="transform" type="translate" values="0,-236;0,472" dur="7.38s" begin="-6.15s" repeatCount="indefinite"/></g></g>
+      <g transform="translate(473 0)"><g transform="translate(0 214)"><use href="#seq-g"/><animateTransform attributeName="transform" type="translate" values="0,-250;0,474" dur="4.42s" begin="-2.74s" repeatCount="indefinite"/></g></g>
+      <g transform="translate(531 0)"><g transform="translate(0 132)"><use href="#seq-e"/><animateTransform attributeName="transform" type="translate" values="0,-244;0,470" dur="6.92s" begin="-5.08s" repeatCount="indefinite"/></g></g>
+      <g transform="translate(589 0)"><g transform="translate(0 58)"><use href="#seq-j"/><animateTransform attributeName="transform" type="translate" values="0,-238;0,475" dur="8.46s" begin="-1.27s" repeatCount="indefinite"/></g></g>
+      <g transform="translate(647 0)"><g transform="translate(0 184)"><use href="#seq-b"/><animateTransform attributeName="transform" type="translate" values="0,-250;0,472" dur="5.36s" begin="-4.31s" repeatCount="indefinite"/></g></g>
+      <g transform="translate(705 0)"><g transform="translate(0 101)"><use href="#seq-l"/><animateTransform attributeName="transform" type="translate" values="0,-242;0,474" dur="7.66s" begin="-6.54s" repeatCount="indefinite"/></g></g>
+      <g transform="translate(763 0)"><g transform="translate(0 29)"><use href="#seq-i"/><animateTransform attributeName="transform" type="translate" values="0,-235;0,470" dur="4.98s" begin="-1.86s" repeatCount="indefinite"/></g></g>
+      <g transform="translate(821 0)"><g transform="translate(0 157)"><use href="#seq-n"/><animateTransform attributeName="transform" type="translate" values="0,-248;0,475" dur="6.48s" begin="-5.72s" repeatCount="indefinite"/></g></g>
+      <g transform="translate(879 0)"><g transform="translate(0 83)"><use href="#seq-o"/><animateTransform attributeName="transform" type="translate" values="0,-240;0,472" dur="8.02s" begin="-3.45s" repeatCount="indefinite"/></g></g>
+      <g transform="translate(937 0)"><g transform="translate(0 205)"><use href="#seq-a"/><animateTransform attributeName="transform" type="translate" values="0,-250;0,474" dur="5.82s" begin="-0.62s" repeatCount="indefinite"/></g></g>
+      <g transform="translate(995 0)"><g transform="translate(0 124)"><use href="#seq-h"/><animateTransform attributeName="transform" type="translate" values="0,-245;0,470" dur="7.14s" begin="-6.03s" repeatCount="indefinite"/></g></g>
+      <g transform="translate(1053 0)"><g transform="translate(0 51)"><use href="#seq-d"/><animateTransform attributeName="transform" type="translate" values="0,-238;0,475" dur="4.58s" begin="-2.49s" repeatCount="indefinite"/></g></g>
+      <g transform="translate(1111 0)"><g transform="translate(0 176)"><use href="#seq-m"/><animateTransform attributeName="transform" type="translate" values="0,-250;0,472" dur="6.84s" begin="-4.88s" repeatCount="indefinite"/></g></g>
+      <g transform="translate(1169 0)"><g transform="translate(0 96)"><use href="#seq-f"/><animateTransform attributeName="transform" type="translate" values="0,-242;0,474" dur="8.62s" begin="-7.21s" repeatCount="indefinite"/></g></g>
+    </g>
+
+    <g class="medium">
+      <g transform="translate(45 0)"><g transform="translate(0 190)"><use href="#seq-p"/><animateTransform attributeName="transform" type="translate" values="0,-250;0,472" dur="4.18s" begin="-1.53s" repeatCount="indefinite"/></g></g>
+      <g transform="translate(99 0)"><g transform="translate(0 103)"><use href="#seq-g"/><animateTransform attributeName="transform" type="translate" values="0,-242;0,475" dur="6.12s" begin="-5.17s" repeatCount="indefinite"/></g></g>
+      <g transform="translate(155 0)"><g transform="translate(0 37)"><use href="#seq-b"/><animateTransform attributeName="transform" type="translate" values="0,-235;0,470" dur="7.44s" begin="-2.82s" repeatCount="indefinite"/></g></g>
+      <g transform="translate(212 0)"><g transform="translate(0 143)"><use href="#seq-j"/><animateTransform attributeName="transform" type="translate" values="0,-248;0,474" dur="5.46s" begin="-4.66s" repeatCount="indefinite"/></g></g>
+      <g transform="translate(270 0)"><g transform="translate(0 69)"><use href="#seq-e"/><animateTransform attributeName="transform" type="translate" values="0,-238;0,472" dur="8.28s" begin="-7.04s" repeatCount="indefinite"/></g></g>
+      <g transform="translate(328 0)"><g transform="translate(0 201)"><use href="#seq-l"/><animateTransform attributeName="transform" type="translate" values="0,-250;0,475" dur="4.64s" begin="-0.84s" repeatCount="indefinite"/></g></g>
+      <g transform="translate(386 0)"><g transform="translate(0 111)"><use href="#seq-i"/><animateTransform attributeName="transform" type="translate" values="0,-242;0,470" dur="6.58s" begin="-5.79s" repeatCount="indefinite"/></g></g>
+      <g transform="translate(444 0)"><g transform="translate(0 48)"><use href="#seq-n"/><animateTransform attributeName="transform" type="translate" values="0,-236;0,474" dur="7.92s" begin="-3.18s" repeatCount="indefinite"/></g></g>
+      <g transform="translate(502 0)"><g transform="translate(0 171)"><use href="#seq-o"/><animateTransform attributeName="transform" type="translate" values="0,-250;0,472" dur="5.24s" begin="-1.96s" repeatCount="indefinite"/></g></g>
+      <g transform="translate(560 0)"><g transform="translate(0 87)"><use href="#seq-a"/><animateTransform attributeName="transform" type="translate" values="0,-240;0,475" dur="8.72s" begin="-6.37s" repeatCount="indefinite"/></g></g>
+      <g transform="translate(618 0)"><g transform="translate(0 218)"><use href="#seq-h"/><animateTransform attributeName="transform" type="translate" values="0,-250;0,470" dur="4.36s" begin="-2.28s" repeatCount="indefinite"/></g></g>
+      <g transform="translate(676 0)"><g transform="translate(0 126)"><use href="#seq-d"/><animateTransform attributeName="transform" type="translate" values="0,-245;0,474" dur="6.76s" begin="-5.55s" repeatCount="indefinite"/></g></g>
+      <g transform="translate(734 0)"><g transform="translate(0 61)"><use href="#seq-m"/><animateTransform attributeName="transform" type="translate" values="0,-238;0,472" dur="7.26s" begin="-0.72s" repeatCount="indefinite"/></g></g>
+      <g transform="translate(792 0)"><g transform="translate(0 194)"><use href="#seq-f"/><animateTransform attributeName="transform" type="translate" values="0,-250;0,475" dur="5.08s" begin="-4.02s" repeatCount="indefinite"/></g></g>
+      <g transform="translate(850 0)"><g transform="translate(0 106)"><use href="#seq-k"/><animateTransform attributeName="transform" type="translate" values="0,-242;0,470" dur="8.06s" begin="-6.91s" repeatCount="indefinite"/></g></g>
+      <g transform="translate(908 0)"><g transform="translate(0 35)"><use href="#seq-c"/><animateTransform attributeName="transform" type="translate" values="0,-235;0,474" dur="4.86s" begin="-2.57s" repeatCount="indefinite"/></g></g>
+      <g transform="translate(966 0)"><g transform="translate(0 149)"><use href="#seq-p"/><animateTransform attributeName="transform" type="translate" values="0,-248;0,472" dur="6.34s" begin="-5.02s" repeatCount="indefinite"/></g></g>
+      <g transform="translate(1024 0)"><g transform="translate(0 78)"><use href="#seq-g"/><animateTransform attributeName="transform" type="translate" values="0,-240;0,475" dur="7.58s" begin="-3.74s" repeatCount="indefinite"/></g></g>
+      <g transform="translate(1082 0)"><g transform="translate(0 211)"><use href="#seq-b"/><animateTransform attributeName="transform" type="translate" values="0,-250;0,470" dur="5.72s" begin="-1.31s" repeatCount="indefinite"/></g></g>
+      <g transform="translate(1140 0)"><g transform="translate(0 119)"><use href="#seq-j"/><animateTransform attributeName="transform" type="translate" values="0,-244;0,474" dur="8.38s" begin="-7.42s" repeatCount="indefinite"/></g></g>
+      <g transform="translate(1191 0)"><g transform="translate(0 56)"><use href="#seq-e"/><animateTransform attributeName="transform" type="translate" values="0,-238;0,472" dur="4.52s" begin="-3.06s" repeatCount="indefinite"/></g></g>
+    </g>
+  </g>
+
+  <rect width="1200" height="430" fill="url(#identity-vignette)"/>
+  <rect width="1200" height="430" fill="url(#edge-fade)"/>
+
+  <g class="identity">
+    <text class="name" x="600" y="196">İBRAHİM YANKAÇ</text>
+    <text class="role" x="600" y="242">SOFTWARE DEVELOPER</text>
+    <text class="role" x="600" y="270">PRODUCT BUILDER</text>
+    <text class="tagline" x="600" y="320">building useful systems from complexity<tspan class="cursor">_</tspan></text>
+  </g>
+</svg>

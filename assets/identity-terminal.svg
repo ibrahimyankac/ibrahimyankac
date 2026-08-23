@@ -1,0 +1,183 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="terminal-title terminal-desc" viewBox="0 0 1200 500" width="1200" height="500" preserveAspectRatio="xMidYMid meet">
+  <title id="terminal-title">İbrahim Yankaç identity terminal</title>
+  <desc id="terminal-desc">An animated black Unix terminal types commands describing İbrahim Yankaç as a software developer and product builder focused on products, automation, data, and systems.</desc>
+
+  <defs>
+    <filter id="phosphor-glow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="scanlines" width="1" height="5" patternUnits="userSpaceOnUse">
+      <path d="M0 4.5H1" stroke="#063B12" stroke-opacity=".16" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="topbar" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#001400"/>
+      <stop offset="1" stop-color="#020602"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .terminal-text {
+      font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+      font-size: 24px;
+      letter-spacing: .15px;
+    }
+    .command {
+      fill: #00FF41;
+      font-weight: 700;
+      filter: url(#phosphor-glow);
+    }
+    .prompt { fill: #70FF70; }
+    .output { fill: #70FF70; }
+    .output-strong { fill: #D7FFD7; }
+    .line-number {
+      fill: #0A641C;
+      font-size: 15px;
+      letter-spacing: 1px;
+    }
+    .rule { stroke: #063B12; }
+    .type {
+      clip-path: inset(0 0 0 0);
+    }
+    .appear { opacity: 1; }
+    .cycle { animation: cycle-fade 16s linear infinite; }
+    .who-command { animation: type-who 16s linear infinite; }
+    .who-output { animation: show-who-output 16s linear infinite; }
+    .role-command { animation: type-role 16s linear infinite; }
+    .role-output { animation: show-role-output 16s linear infinite; }
+    .focus-command { animation: type-focus 16s linear infinite; }
+    .focus-one { animation: show-focus-one 16s linear infinite; }
+    .focus-two { animation: show-focus-two 16s linear infinite; }
+    .focus-three { animation: show-focus-three 16s linear infinite; }
+    .focus-four { animation: show-focus-four 16s linear infinite; }
+    .philosophy-command { animation: type-philosophy 16s linear infinite; }
+    .philosophy-output { animation: show-philosophy-output 16s linear infinite; }
+    .cursor-gate { opacity: 1; animation: show-cursor 16s linear infinite; }
+    .cursor { animation: cursor-blink .9s step-end infinite; }
+
+    @keyframes type-who {
+      0%, 2% { clip-path: inset(0 100% 0 0); animation-timing-function: steps(8, end); }
+      7%, 100% { clip-path: inset(0 0 0 0); }
+    }
+    @keyframes show-who-output {
+      0%, 8.4% { opacity: 0; }
+      9.2%, 100% { opacity: 1; }
+    }
+    @keyframes type-role {
+      0%, 12% { clip-path: inset(0 100% 0 0); animation-timing-function: steps(6, end); }
+      16.5%, 100% { clip-path: inset(0 0 0 0); }
+    }
+    @keyframes show-role-output {
+      0%, 17.9% { opacity: 0; }
+      18.7%, 100% { opacity: 1; }
+    }
+    @keyframes type-focus {
+      0%, 22% { clip-path: inset(0 100% 0 0); animation-timing-function: steps(7, end); }
+      27%, 100% { clip-path: inset(0 0 0 0); }
+    }
+    @keyframes show-focus-one {
+      0%, 28.9% { opacity: 0; }
+      29.6%, 100% { opacity: 1; }
+    }
+    @keyframes show-focus-two {
+      0%, 32.9% { opacity: 0; }
+      33.6%, 100% { opacity: 1; }
+    }
+    @keyframes show-focus-three {
+      0%, 36.9% { opacity: 0; }
+      37.6%, 100% { opacity: 1; }
+    }
+    @keyframes show-focus-four {
+      0%, 40.9% { opacity: 0; }
+      41.6%, 100% { opacity: 1; }
+    }
+    @keyframes type-philosophy {
+      0%, 46% { clip-path: inset(0 100% 0 0); animation-timing-function: steps(12, end); }
+      54%, 100% { clip-path: inset(0 0 0 0); }
+    }
+    @keyframes show-philosophy-output {
+      0%, 56.4% { opacity: 0; }
+      57.2%, 100% { opacity: 1; }
+    }
+    @keyframes show-cursor {
+      0%, 58% { opacity: 0; }
+      58.1%, 100% { opacity: 1; }
+    }
+    @keyframes cursor-blink {
+      0%, 48% { opacity: 1; }
+      49%, 100% { opacity: 0; }
+    }
+    @keyframes cycle-fade {
+      0%, 92% { opacity: 1; }
+      96%, 100% { opacity: 0; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .cycle,
+      .type,
+      .appear,
+      .cursor-gate,
+      .cursor {
+        animation: none !important;
+      }
+      .cycle,
+      .appear,
+      .cursor-gate,
+      .cursor {
+        opacity: 1 !important;
+      }
+      .type { clip-path: inset(0 0 0 0) !important; }
+    }
+  </style>
+
+  <rect width="1200" height="500" fill="#000000"/>
+  <rect x="19" y="15" width="1162" height="470" rx="8" fill="#000000" stroke="#0A641C" stroke-width="2"/>
+  <path d="M27 15h1146a8 8 0 0 1 8 8v43H19V23a8 8 0 0 1 8-8Z" fill="url(#topbar)"/>
+  <path d="M19 66H1181" class="rule" stroke-width="2"/>
+  <path d="M42 40l7-7 7 7-7 7Z" fill="none" stroke="#00FF41" stroke-width="1.5"/>
+  <text x="70" y="47" fill="#70FF70" font-family="&quot;SFMono-Regular&quot;, Consolas, &quot;Liberation Mono&quot;, Menlo, monospace" font-size="19" font-weight="700">root@matrix:~/ibrahim</text>
+  <text x="1138" y="46" fill="#0A641C" text-anchor="end" font-family="&quot;SFMono-Regular&quot;, Consolas, &quot;Liberation Mono&quot;, Menlo, monospace" font-size="14" letter-spacing="1.5">TTY 01</text>
+
+  <path d="M51 88V454" class="rule" stroke-width="1" stroke-dasharray="2 8"/>
+  <g class="line-number terminal-text" aria-hidden="true">
+    <text x="34" y="106" text-anchor="middle">01</text>
+    <text x="34" y="136" text-anchor="middle">02</text>
+    <text x="34" y="176" text-anchor="middle">03</text>
+    <text x="34" y="206" text-anchor="middle">04</text>
+    <text x="34" y="246" text-anchor="middle">05</text>
+    <text x="34" y="276" text-anchor="middle">06</text>
+    <text x="34" y="306" text-anchor="middle">07</text>
+    <text x="34" y="336" text-anchor="middle">08</text>
+    <text x="34" y="366" text-anchor="middle">09</text>
+    <text x="34" y="406" text-anchor="middle">10</text>
+    <text x="34" y="436" text-anchor="middle">11</text>
+    <text x="34" y="466" text-anchor="middle">12</text>
+  </g>
+
+  <g class="cycle terminal-text">
+    <text class="command type who-command" x="68" y="106"><tspan class="prompt">$</tspan><tspan> whoami</tspan></text>
+    <text class="output-strong appear who-output" x="68" y="136">ibrahim_yankac</text>
+
+    <text class="command type role-command" x="68" y="176"><tspan class="prompt">$</tspan><tspan> role</tspan></text>
+    <text class="output appear role-output" x="68" y="206">software developer / product builder</text>
+
+    <text class="command type focus-command" x="68" y="246"><tspan class="prompt">$</tspan><tspan> focus</tspan></text>
+    <text class="output appear focus-one" x="68" y="276">products</text>
+    <text class="output appear focus-two" x="68" y="306">automation</text>
+    <text class="output appear focus-three" x="68" y="336">data</text>
+    <text class="output appear focus-four" x="68" y="366">systems</text>
+
+    <text class="command type philosophy-command" x="68" y="406"><tspan class="prompt">$</tspan><tspan> philosophy</tspan></text>
+    <text class="output-strong appear philosophy-output" x="68" y="436">turn complex problems into clear, useful software</text>
+
+    <g class="cursor-gate" aria-hidden="true">
+      <text x="68" y="466" class="prompt">$</text>
+      <rect class="cursor" x="91" y="445" width="13" height="24" fill="#00FF41" filter="url(#phosphor-glow)"/>
+    </g>
+  </g>
+
+  <rect x="21" y="67" width="1158" height="416" rx="0" fill="url(#scanlines)" pointer-events="none"/>
+</svg>
