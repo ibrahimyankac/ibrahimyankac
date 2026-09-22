@@ -24,10 +24,8 @@
 
 <br/>
 
-<p align="center"><sub><code>$ curl contributions.snake</code></sub></p>
-
 <div align="center">
-  <img src="https://raw.githubusercontent.com/ibrahimyankac/ibrahimyankac/output/github-contribution-grid-snake.svg" width="100%" alt="İbrahim Yankaç's contribution graph eaten by a snake"/>
+  <img src="https://raw.githubusercontent.com/ibrahimyankac/ibrahimyankac/output/contributions.svg" width="100%" alt="İbrahim Yankaç's GitHub contribution heatmap for the last year"/>
 </div>
 
 <br/>
