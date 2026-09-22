@@ -69,7 +69,7 @@ function renderSvg(stats) {
       const zebraOpacity = i % 2 === 0 ? ' fill-opacity=".42"' : "";
       const barColor = i % 2 === 0 ? "#00FF41" : "#0A641C";
       return `
-    <g class="row" style="animation-delay:${(0.75 + i * 0.12).toFixed(2)}s">
+    <g class="row row-${i}">
       <rect x="20" y="${y}" width="760" height="${rowHeight - 4}" fill="${zebra}"${zebraOpacity}/>
       <rect x="20" y="${y}" width="3" height="${rowHeight - 4}" fill="${barColor}"/>
       <text x="32" y="${y + 39}" fill="#D7FFD7" font-size="19" font-weight="700" letter-spacing=".4">${esc(label)}</text>
@@ -80,6 +80,10 @@ function renderSvg(stats) {
 
   const height = top + stats.length * rowHeight + 40;
 
+  const rowDelayCss = stats
+    .map((_, i) => `    .row-${i} { animation-delay: ${(0.75 + i * 0.12).toFixed(2)}s; }`)
+    .join("\n");
+
   return `<svg xmlns="http://www.w3.org/2000/svg" width="800" height="${height}" viewBox="0 0 800 ${height}" role="img" aria-labelledby="activity-title activity-desc">
   <title id="activity-title">İbrahim Yankaç's GitHub activity log</title>
   <desc id="activity-desc">Public repository count, total stars, followers, and top languages, generated from the GitHub REST API.</desc>
@@ -88,6 +92,7 @@ function renderSvg(stats) {
     .frame, .heading, .row { opacity: 1; animation: reveal .4s ease-out both; }
     .heading { animation-delay: .1s; }
     .frame { animation-delay: .3s; }
+${rowDelayCss}
     @keyframes reveal { from { opacity: 0; } to { opacity: 1; } }
     @media (prefers-reduced-motion: reduce) {
       .frame, .heading, .row { animation: none !important; opacity: 1 !important; }
