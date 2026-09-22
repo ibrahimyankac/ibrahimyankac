@@ -3,13 +3,6 @@
   <img src="assets/identity-terminal.svg" width="100%" alt="Matrix-style terminal introducing İbrahim Yankaç, his role, focus, and software philosophy">
 </div>
 
-<p align="center">
-  <sub>
-    İbrahim Yankaç — software developer &amp; product builder. Focus areas: products, automation, data, systems.<br/>
-    Philosophy: turn complex problems into clear, useful software.
-  </sub>
-</p>
-
 <br/>
 
 <div align="center">
