@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="464" viewBox="0 0 800 464" role="img" aria-labelledby="projects-title projects-desc">
+  <title id="projects-title">İbrahim Yankaç's featured projects</title>
+  <desc id="projects-desc">karpilot-showcase: Profit analytics and cost intelligence for ikas merchants.. transfer-learning-pneumonia-detection: Pneumonia detection from chest X-rays using DenseNet121 trans…. Ninja-Platform-Game: Ninja platform game with python.. Pacman-Game: Pacman clone game wih Python.</desc>
+  <style>
+    text { font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace; }
+    .cursor { animation: blink 1.05s steps(1, end) infinite; }
+    @keyframes blink { 0%, 46% { opacity: 1; } 47%, 100% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) {
+      .cursor { animation: none; opacity: 1; }
+    }
+  </style>
+  <rect width="800" height="464" fill="#000000"/>
+  <rect x="14.5" y="20.5" width="771" height="423" rx="3" fill="#020602" stroke="#063B12"/>
+  <path d="M15 70.5H785" stroke="#063B12"/>
+  <g>
+    <rect x="28" y="42" width="8" height="8" fill="#00FF41"/>
+    <text x="48" y="53" fill="#70FF70" font-size="26" font-weight="700" letter-spacing="3">FEATURED PROJECTS</text>
+    <text x="28" y="87" fill="#00FF41" font-size="18">&gt; ls ~/projects --sort=stars<tspan class="cursor">_</tspan></text>
+  </g>
+  
+    <g>
+      <rect x="20" y="88" width="760" height="80" fill="#001400" fill-opacity=".42"/>
+      <rect x="20" y="88" width="3" height="80" fill="#00FF41"/>
+      <text x="32" y="118" fill="#D7FFD7" font-size="19" font-weight="700" letter-spacing=".3">karpilot-showcase</text>
+      <text x="748" y="118" text-anchor="end" fill="#70FF70" font-size="15" font-weight="700">— &#9733; 0</text>
+      <text x="32" y="143" fill="#4FAF61" font-size="15">Profit analytics and cost intelligence for ikas merchants.</text>
+    </g>
+    <g>
+      <rect x="20" y="172" width="760" height="80" fill="#020602"/>
+      <rect x="20" y="172" width="3" height="80" fill="#0A641C"/>
+      <text x="32" y="202" fill="#D7FFD7" font-size="19" font-weight="700" letter-spacing=".3">transfer-learning-pneumonia-detection</text>
+      <text x="748" y="202" text-anchor="end" fill="#70FF70" font-size="15" font-weight="700">Python &#9733; 0</text>
+      <text x="32" y="227" fill="#4FAF61" font-size="15">Pneumonia detection from chest X-rays using DenseNet121 trans…</text>
+    </g>
+    <g>
+      <rect x="20" y="256" width="760" height="80" fill="#001400" fill-opacity=".42"/>
+      <rect x="20" y="256" width="3" height="80" fill="#00FF41"/>
+      <text x="32" y="286" fill="#D7FFD7" font-size="19" font-weight="700" letter-spacing=".3">Ninja-Platform-Game</text>
+      <text x="748" y="286" text-anchor="end" fill="#70FF70" font-size="15" font-weight="700">Python &#9733; 0</text>
+      <text x="32" y="311" fill="#4FAF61" font-size="15">Ninja platform game with python.</text>
+    </g>
+    <g>
+      <rect x="20" y="340" width="760" height="80" fill="#020602"/>
+      <rect x="20" y="340" width="3" height="80" fill="#0A641C"/>
+      <text x="32" y="370" fill="#D7FFD7" font-size="19" font-weight="700" letter-spacing=".3">Pacman-Game</text>
+      <text x="748" y="370" text-anchor="end" fill="#70FF70" font-size="15" font-weight="700">Python &#9733; 0</text>
+      <text x="32" y="395" fill="#4FAF61" font-size="15">Pacman clone game wih Python.</text>
+    </g>
+  <text x="772" y="448" text-anchor="end" fill="#0A641C" font-size="12">SOURCE: api.github.com // LIVE</text>
+</svg>
