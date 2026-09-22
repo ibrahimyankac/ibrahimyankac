@@ -69,7 +69,7 @@ function renderSvg(stats) {
       const zebraOpacity = i % 2 === 0 ? ' fill-opacity=".42"' : "";
       const barColor = i % 2 === 0 ? "#00FF41" : "#0A641C";
       return `
-    <g class="row row-${i}">
+    <g>
       <rect x="20" y="${y}" width="760" height="${rowHeight - 4}" fill="${zebra}"${zebraOpacity}/>
       <rect x="20" y="${y}" width="3" height="${rowHeight - 4}" fill="${barColor}"/>
       <text x="32" y="${y + 39}" fill="#D7FFD7" font-size="19" font-weight="700" letter-spacing=".4">${esc(label)}</text>
@@ -80,31 +80,24 @@ function renderSvg(stats) {
 
   const height = top + stats.length * rowHeight + 40;
 
-  const rowDelayCss = stats
-    .map((_, i) => `    .row-${i} { animation-delay: ${(0.75 + i * 0.12).toFixed(2)}s; }`)
-    .join("\n");
-
   return `<svg xmlns="http://www.w3.org/2000/svg" width="800" height="${height}" viewBox="0 0 800 ${height}" role="img" aria-labelledby="activity-title activity-desc">
   <title id="activity-title">İbrahim Yankaç's GitHub activity log</title>
   <desc id="activity-desc">Public repository count, total stars, followers, and top languages, generated from the GitHub REST API.</desc>
   <style>
     text { font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace; }
-    .frame, .heading, .row { opacity: 1; animation: reveal .4s ease-out both; }
-    .heading { animation-delay: .1s; }
-    .frame { animation-delay: .3s; }
-${rowDelayCss}
-    @keyframes reveal { from { opacity: 0; } to { opacity: 1; } }
+    .cursor { animation: blink 1.05s steps(1, end) infinite; }
+    @keyframes blink { 0%, 46% { opacity: 1; } 47%, 100% { opacity: 0; } }
     @media (prefers-reduced-motion: reduce) {
-      .frame, .heading, .row { animation: none !important; opacity: 1 !important; }
+      .cursor { animation: none; opacity: 1; }
     }
   </style>
   <rect width="800" height="${height}" fill="#000000"/>
-  <rect class="frame" x="14.5" y="20.5" width="771" height="${height - 41}" rx="3" fill="#020602" stroke="#063B12"/>
-  <path class="frame" d="M15 ${top - 17.5}H785" stroke="#063B12"/>
-  <g class="heading">
+  <rect x="14.5" y="20.5" width="771" height="${height - 41}" rx="3" fill="#020602" stroke="#063B12"/>
+  <path d="M15 ${top - 17.5}H785" stroke="#063B12"/>
+  <g>
     <rect x="28" y="42" width="8" height="8" fill="#00FF41"/>
     <text x="48" y="53" fill="#70FF70" font-size="26" font-weight="700" letter-spacing="3">ACTIVITY LOG</text>
-    <text x="28" y="87" fill="#00FF41" font-size="18">&gt; scan --activity --user=${esc(USERNAME)}</text>
+    <text x="28" y="87" fill="#00FF41" font-size="18">&gt; scan --activity --user=${esc(USERNAME)}<tspan class="cursor">_</tspan></text>
   </g>
   ${rows}
   <text x="772" y="${height - 16}" text-anchor="end" fill="#0A641C" font-size="12">SOURCE: api.github.com // LIVE</text>
