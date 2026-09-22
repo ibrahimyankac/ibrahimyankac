@@ -18,34 +18,8 @@
 
 <br/>
 
-<p align="center"><sub><code>$ ls ~/projects --sort=featured</code></sub></p>
-
 <div align="center">
-
-**[karpilot-showcase](https://github.com/ibrahimyankac/karpilot-showcase)** — profit analytics and cost intelligence for ikas merchants
-<br/>
-<img src="https://img.shields.io/github/languages/top/ibrahimyankac/karpilot-showcase?style=flat-square&color=0A641C&labelColor=000000" alt="Top language"/> <img src="https://img.shields.io/github/stars/ibrahimyankac/karpilot-showcase?style=flat-square&color=00FF41&labelColor=000000&label=%E2%98%85" alt="Stars"/>
-
-**[transfer-learning-pneumonia-detection](https://github.com/ibrahimyankac/transfer-learning-pneumonia-detection)** — pneumonia detection from chest X-rays using DenseNet121 transfer learning
-<br/>
-<img src="https://img.shields.io/github/languages/top/ibrahimyankac/transfer-learning-pneumonia-detection?style=flat-square&color=0A641C&labelColor=000000" alt="Top language"/> <img src="https://img.shields.io/github/stars/ibrahimyankac/transfer-learning-pneumonia-detection?style=flat-square&color=00FF41&labelColor=000000&label=%E2%98%85" alt="Stars"/>
-
-**[Ninja-Platform-Game](https://github.com/ibrahimyankac/Ninja-Platform-Game)** — ninja platform game built with Python
-<br/>
-<img src="https://img.shields.io/github/languages/top/ibrahimyankac/Ninja-Platform-Game?style=flat-square&color=0A641C&labelColor=000000" alt="Top language"/> <img src="https://img.shields.io/github/stars/ibrahimyankac/Ninja-Platform-Game?style=flat-square&color=00FF41&labelColor=000000&label=%E2%98%85" alt="Stars"/>
-
-**[Pacman-Game](https://github.com/ibrahimyankac/Pacman-Game)** — Pacman clone built with Python
-<br/>
-<img src="https://img.shields.io/github/languages/top/ibrahimyankac/Pacman-Game?style=flat-square&color=0A641C&labelColor=000000" alt="Top language"/> <img src="https://img.shields.io/github/stars/ibrahimyankac/Pacman-Game?style=flat-square&color=00FF41&labelColor=000000&label=%E2%98%85" alt="Stars"/>
-
-</div>
-
-<br/>
-
-<p align="center"><sub><code>$ scan --activity --user=ibrahimyankac</code></sub></p>
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/ibrahimyankac/ibrahimyankac/output/activity-log.svg" width="100%" alt="İbrahim Yankaç's GitHub activity log — public repos, total stars, followers, and top languages"/>
+  <img src="https://raw.githubusercontent.com/ibrahimyankac/ibrahimyankac/output/projects.svg" width="100%" alt="İbrahim Yankaç's featured projects — karpilot-showcase, transfer-learning-pneumonia-detection, Ninja-Platform-Game, and Pacman-Game with language and star counts"/>
 </div>
 
 <br/>

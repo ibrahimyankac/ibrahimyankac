@@ -28,10 +28,10 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           outputs: dist/github-contribution-grid-snake.svg?color_snake=%2300FF41&color_dots=%23020602,%23063B12,%230A641C,%2300FF41,%2370FF70
 
-      - name: Generate activity log SVG
+      - name: Generate featured projects SVG
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: node scripts/generate-activity-log.mjs > dist/activity-log.svg
+        run: node scripts/generate-projects.mjs > dist/projects.svg
 
       - uses: crazy-max/ghaction-github-pages@v4
         with:
